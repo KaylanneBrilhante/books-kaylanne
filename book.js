@@ -18,7 +18,7 @@ function adicionarImagem(section){
     div.setAttribute("class", "livro-imagem");
 
     let imagem = document.createElement("img");
-    imagem.src = "img/livro.webp";
+    imagem.src = "livro.webp";
     imagem.alt = "Imagem do livro";
 
     div.appendChild(imagem);
